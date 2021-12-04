@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ruddy';
+    src: local('Ruddy Regular'), local('Ruddy-Regular'),
+        url('Ruddy-Regular.woff2') format('woff2'),
+        url('Ruddy-Regular.woff') format('woff'),
+        url('Ruddy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

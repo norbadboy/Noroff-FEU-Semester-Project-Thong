@@ -98,7 +98,7 @@ label:hover {
 }
 /* NAVIGATION BAR */
 .header--navigation {
-  background-color: white;
+  background-color: var(--white);
   padding: 0 60px;
 }
 .header--navigation-items {
@@ -134,17 +134,20 @@ label:hover {
   color: var(--light-blue);
 }
 /* HAMBURGER MENU */
-.hamburger {
-  display: none;
-}
-.fa-bars {
+.fas {
   display: none;
   color: var(--dark-blue);
   font-size: 21px;
 }
+#hamburger-menu {
+  display: none;
+}
 /* BODY */
 body {
-  background-color: var(--dark-blue);
+  background: #3a7aa8;
+  background: -webkit-linear-gradient(bottom, #3a7aa8, #1c3159);
+  background: -moz-linear-gradient(bottom, #3a7aa8, #1c3159);
+  background: linear-gradient(to top, #3a7aa8, #1c3159);
   display: flex;
   flex-direction: column;
 }
@@ -170,7 +173,7 @@ main,
 .main-home--container {
   align-items: center;
   box-sizing: border-box;
-  padding: var(--padding-box);
+  padding: 40px 60px;
   background-color: var(--light-blue);
   margin-top: var(--margin-top);
 }
@@ -251,36 +254,75 @@ footer p {
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 768px) {
-  .main-home--container h1{
+@media screen and (max-width: 1024px) {
+  .main-home--container h1 {
     font-size: 40px;
   }
-  h1{
+  h1 {
     font-size: 27px;
   }
-  h2{
+  h2 {
     font-size: 22px;
   }
-  h3{
+  h3 {
     font-size: 18px;
   }
-  p{
+  p {
     font-size: 14px;
   }
-  .main-home--container, .info-home--container{
+
+  .info-home--container {
     padding: var(--padding-box-mobile);
   }
-  /* HAMBURGER MENU */
-  .header--navigation-items {
+  .main-home--buttons {
+    display: flex;
     flex-direction: column;
   }
-  .header--navigation-items li{
+  /* NAVIGATION BAR */
+  .header--navigation-items {
+    flex-direction: column;
+    padding: 0;
     display: none;
   }
-  .fa-bars{
+  .header--navigation-items li {
+    display: flex;
+    flex-direction: column;
+  }
+  .header--navigation-items a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 20px;
+  }
+  .header--navigation-items .item-1:hover {
+    background-color: var(--pink);
+    color: var(--white);
+  }
+  .header--navigation-items .item-2:hover {
+    background-color: var(--orange);
+    color: var(--white);
+  }
+  .header--navigation-items .item-3:hover {
+    background-color: var(--purple);
+    color: var(--white);
+  }
+  .header--navigation-items .item-4:hover {
+    background-color: var(--green);
+    color: var(--white);
+  }
+  .header--navigation-items .item-5:hover {
+    background-color: var(--light-blue);
+    color: var(--white);
+  }
+  /* HAMBURGER MENU */
+  .fas {
     display: flex;
     justify-content: flex-end;
-    background-color: #be5800;
+    padding: 12px 0;
   }
-
+  .header--navigation input:checked ~ .header--navigation-items {
+    display: block;
+  }
 }

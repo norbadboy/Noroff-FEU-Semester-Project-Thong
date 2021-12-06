@@ -8,12 +8,12 @@
     --white: #fff;
     --light-black: #0f0d0d;
     --border-radius: 45px;
-    --padding-box: 40px 120px;
+    --padding-box: 45px 120px;
     --margin-top: 55px;
     --padding-top-inside: 30px;
 }
 .explore-info--wraper, .teachers--wraper, .researchers--wraper{
-    background-color: var(--orange);
+    background-color: var(--pink);
     margin-top: var(--margin-top);
     border-radius: var(--border-radius);
     padding: var(--padding-box);

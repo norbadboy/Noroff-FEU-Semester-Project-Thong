@@ -1,17 +1,3 @@
-:root {
-    --pink: #c34881;
-    --orange: #BE5800;
-    --purple: #4962f2;
-    --light-blue: #3a79a8;
-    --dark-blue: #1b3059;
-    --green: #386E01;
-    --white: #fff;
-    --light-black: #0f0d0d;
-    --border-radius: 45px;
-    --padding-box: 45px 120px;
-    --margin-top: 55px;
-    --padding-top-inside: 30px;
-}
 .explore-info--wraper, .teachers--wraper, .researchers--wraper{
     background-color: var(--pink);
     margin-top: var(--margin-top);

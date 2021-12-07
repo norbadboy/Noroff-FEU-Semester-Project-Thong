@@ -1,0 +1,44 @@
+.get-involved--wraper {
+  background-color: var(--green);
+  padding: var(--padding-box);
+  border-radius: var(--border-radius);
+  margin-top: var(--margin-top);
+}
+.get-involved--inside {
+  display: flex;
+}
+.get-involved--container {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 40px 60px;
+  margin-top: var(--margin-top);
+}
+.get-involved--text p {
+    font-size: 17px;
+}
+.get-involved--text{
+    flex: 1.6;
+}
+.get-involved--container h2{
+display: flex;
+justify-content: center;
+}
+.h2--support{
+    position: relative;
+    right: 10px;
+}
+.h2--internships{
+    position: relative;
+    left: 20px;
+}
+.get-involved--image{
+    height: 500px;
+    margin-top: 0;
+    width: 100%;
+    flex: 1;
+    margin-right: 50px;
+}
+.get-involved--image img{
+    height: 100%;
+    margin-top: 0;
+}

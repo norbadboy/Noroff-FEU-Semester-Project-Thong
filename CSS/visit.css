@@ -1,0 +1,76 @@
+:root {
+  --pink: #c34881;
+  --orange: #be5800;
+  --purple: #4962f2;
+  --light-blue: #3a79a8;
+  --dark-blue: #1b3059;
+  --green: #386e01;
+  --white: #fff;
+  --light-black: #0f0d0d;
+  --border-radius: 45px;
+  --padding-box: 45px 100px;
+  --padding-box-mobile: 40px 60px;
+  --margin-top: 55px;
+  --padding-top-inside: 30px;
+}
+.visit--wraper h2 {
+  margin: 0;
+  color: var(--white);
+}
+.visit--wraper p {
+  color: var(--white);
+  margin-top: var(--padding-top-inside);
+}
+.main-visit--container,
+.admission--wraper,
+.hours--body,
+.location--body,
+.food--body,
+.shop--body {
+  border-radius: var(--border-radius);
+  padding: var(--padding-box);
+}
+.main-visit--container {
+  margin-top: var(--margin-top);
+  background-image: url("../Images/scott-webb-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.main-visit--container h1{
+    font-size: 70px;
+}
+.main-visit--container h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 20px;
+}
+.museum-info--wraper {
+  display: flex;
+  margin-top: var(--margin-top);
+}
+.hours--body {
+  background-color: var(--orange);
+  flex: 1;
+  margin-right: 25px;
+}
+.location--body {
+  background-color: var(--pink);
+  flex: 1;
+  margin-left: 25px;
+}
+.admission--wraper {
+  background-color: var(--dark-blue);
+  margin-top: var(--margin-top);
+}
+.food--body {
+  background-color: var(--green);
+  flex: 1;
+  margin-right: 25px;
+}
+.shop--body {
+  background-color: var(--purple);
+  flex: 1;
+  margin-left: 25px;
+}

@@ -13,3 +13,30 @@ height: 400px;
 .multiple-images{
     display: flex;
 }
+.explore--button{
+    display: flex;
+    justify-content: center;
+}
+.teacher--info{
+    color: var(--pink);
+    text-decoration: underline;
+}
+.image--1, .image--2, .image--3{
+    flex: 1;
+}
+.image--1 {
+    margin-right: 30px;
+}
+.image--2{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.image--3{
+    margin-left: 30px;
+}
+.image--4{
+    margin-right: 25px;
+}
+.image--5{
+    margin-left: 25px;
+}

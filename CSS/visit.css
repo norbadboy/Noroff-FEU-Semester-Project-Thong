@@ -16,10 +16,10 @@
 .visit--wraper h2 {
   margin: 0;
   color: var(--white);
+  margin-bottom: var(--padding-top-inside);
 }
 .visit--wraper p {
   color: var(--white);
-  margin-top: var(--padding-top-inside);
 }
 .main-visit--container,
 .admission--wraper,
@@ -37,8 +37,8 @@
   background-repeat: no-repeat;
   height: 200px;
 }
-.main-visit--container h1{
-    font-size: 70px;
+.main-visit--container h1 {
+  font-size: 70px;
 }
 .main-visit--container h2 {
   display: flex;
@@ -73,4 +73,22 @@
   background-color: var(--purple);
   flex: 1;
   margin-left: 25px;
+}
+.access--body {
+  margin-top: var(--padding-top-inside);
+}
+.map-responsive {
+  margin-top: var(--padding-top-inside);
+  overflow: hidden;
+  padding-bottom: 80%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }

@@ -53,6 +53,7 @@ a {
   text-decoration: none;
   color: var(--white);
 }
+/* BUTTONS DESKTOP */
 .main-home--buttons {
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@ a {
 label:hover {
   cursor: pointer;
 }
-/* LOGO */
+/* LOGO DESKTOP*/
 .header--container {
   background-color: var(--light-black);
   padding: 0 60px;
@@ -115,7 +116,7 @@ label:hover {
   width: 100%;
   border: 0;
 }
-/* NAVIGATION BAR */
+/* NAVIGATION BAR DESKTOP*/
 .header--navigation {
   background-color: var(--white);
   padding: 0 60px;
@@ -152,11 +153,11 @@ label:hover {
 .header--navigation-items .item-5 {
   color: var(--light-blue);
 }
-/* HAMBURGER MENU */
+/* HAMBURGER MENU DESKTOP*/
 .fas {
   display: none;
   color: var(--dark-blue);
-  font-size: 21px;
+  font-size: 23px;
 }
 .far-bars {
   display: none;
@@ -167,9 +168,9 @@ label:hover {
 #hamburger-menu {
   display: none;
 }
-/* MAPS */
+/* MAPS DESKTOP*/
 
-/* BODY */
+/* BODY DESKTOP*/
 body {
   background: #3a7aa8;
   background: -webkit-linear-gradient(bottom, #3a7aa8, #1c3159);
@@ -257,10 +258,10 @@ main,
   background-color: var(--green);
 }
 .special--body .right--container img {
-  margin-top: 88px;
+  margin-top: 99px;
 }
 
-/* FOOTER */
+/* FOOTER DESKTOP*/
 footer {
   background-color: var(--white);
   margin-top: var(--margin-top);
@@ -311,15 +312,20 @@ footer p {
   .main-home--buttons .button-1 {
     margin: 0;
   }
-  /* NAVIGATION BAR */
+  /* NAVIGATION BAR TABLET*/
+  .header--navigation {
+    padding: 12px 60px;
+  }
   .header--navigation-items {
     flex-direction: column;
     padding: 0;
     display: none;
+    margin-top: 10px;
   }
   .header--navigation-items li {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5px;
   }
   .header--navigation-items a {
     display: flex;
@@ -349,15 +355,14 @@ footer p {
     background-color: var(--light-blue);
     color: var(--white);
   }
-  /* HAMBURGER MENU */
+  /* HAMBURGER MENU TABLET*/
   .fas {
     /* overide default behavior of fontawsome item */
-    display: flex !important;
+    display: block !important;
     justify-content: flex-end;
-    padding: 12px 0;
   }
   .header--navigation label {
-    display: block;
+    display: initial;
   }
   .fa-bars:before {
     display: flex;
@@ -365,7 +370,72 @@ footer p {
   .header--navigation input:checked ~ .header--navigation-items {
     display: block;
   }
+
+  /* IMAGE TABLET*/
   .home--body img {
     height: 300px;
+  }
+  .image {
+    height: 334px;
+  }
+  .left--container,
+  .right--container {
+    height: 100%;
+  }
+  .special--body .right--container img {
+    margin-top: 65px;
+  }
+}
+
+
+/* PHONE SCREEN */
+@media screen and (max-width: 400px) {
+  .header--container,
+  .home--body {
+    padding: 0 30px;
+  }
+  .main-home--container h1 {
+    font-size: 33px;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .main-home--container {
+    padding: 30px 40px;
+  }
+  /* BUTTONS PHONE */
+  .main-home--buttons {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .main-home--buttons a {
+    font-size: 15px;
+    padding: 10px 15px;
+
+  }
+  .main-home--buttons .button-1 {
+    width: 195px;
+    margin: 0;
+  }
+
+  /* NAVIGATION PHONE */
+  .header--navigation {
+    padding: 8px 30px;
+  }
+  .header--navigation-items a{
+    font-size: 15px;
+  }
+  /* HAMURGER PHONE*/
+  .fas {
+    font-size: 20px;
   }
 }

@@ -13,8 +13,9 @@
   --light-black: #0f0d0d;
   --border-radius: 45px;
   --padding-box: 45px 100px;
-  --padding-box-mobile: 40px 60px;
+  --padding-box-tablet: 40px 60px;
   --margin-top: 55px;
+  --margin-top-mobile: 30px;
   --padding-top-inside: 30px;
 }
 h1,
@@ -280,6 +281,8 @@ footer p {
 }
 .footer--container p {
   line-height: 2;
+  text-align: left;
+  text-justify: auto;
 }
 .footer--container {
   margin-right: 45px;
@@ -304,7 +307,7 @@ footer p {
   }
 
   .info-home--container {
-    padding: var(--padding-box-mobile);
+    padding: var(--padding-box-tablet);
   }
   .main-home--buttons {
     flex-direction: column;
@@ -387,15 +390,14 @@ footer p {
   }
 }
 
-
 /* PHONE SCREEN */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .header--container,
   .home--body {
-    padding: 0 30px;
+    padding: 0 35px;
   }
   .main-home--container h1 {
-    font-size: 33px;
+    font-size: 38px;
   }
   h1 {
     font-size: 27px;
@@ -404,13 +406,18 @@ footer p {
     font-size: 24px;
   }
   h3 {
-    font-size: 14px;
+    font-size: 21px;
+    margin-bottom: 8px;
   }
   p {
     font-size: 10px;
+    text-align: left;
+    text-justify: auto;
   }
-  .main-home--container {
-    padding: 30px 40px;
+  .main-home--container,
+  .info-home--container {
+    padding: 35px 35px;
+    margin-top: var(--margin-top-mobile);
   }
   /* BUTTONS PHONE */
   .main-home--buttons {
@@ -420,7 +427,6 @@ footer p {
   .main-home--buttons a {
     font-size: 15px;
     padding: 10px 15px;
-
   }
   .main-home--buttons .button-1 {
     width: 195px;
@@ -429,13 +435,55 @@ footer p {
 
   /* NAVIGATION PHONE */
   .header--navigation {
-    padding: 8px 30px;
+    padding: 8px 35px;
   }
-  .header--navigation-items a{
+  .header--navigation-items a {
     font-size: 15px;
   }
   /* HAMURGER PHONE*/
   .fas {
     font-size: 20px;
+  }
+  /* EXPLORE & SPECIAL BODY PHONE */
+  .explore--body,
+  .special--body {
+    flex-direction: column;
+    margin-top: var(--margin-top-mobile);
+  }
+  .right--container {
+    margin-left: 0;
+    margin-top: var(--margin-top-mobile);
+    padding-top: 25px;
+  }
+  .left--container {
+    margin-right: 0;
+    padding-top: 25px;
+  }
+  /* IMAGE PHONE*/
+  .image {
+    height: 265px;
+  }
+  .home--body img {
+    height: 244px;
+    margin-top: 25px;
+  }
+  .special--body .right--container img {
+    margin-top: 35px;
+  }
+  /* FOOTER PHONE */
+  footer {
+    margin-top: var(--margin-top-mobile);
+    height: 710px;
+  }
+  .footer--wraper {
+    flex-direction: column;
+    padding: 0 35px;
+  }
+  .footer--container {
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .footer--container p {
+    font-size: 10px;
   }
 }

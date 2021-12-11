@@ -1,42 +1,115 @@
-.explore-info--wraper, .teachers--wraper, .researchers--wraper{
-    background-color: var(--pink);
-    margin-top: var(--margin-top);
-    border-radius: var(--border-radius);
-    padding: var(--padding-box);
+.explore-info--wraper,
+.teachers--wraper,
+.researchers--wraper {
+  background-color: var(--pink);
+  margin-top: var(--margin-top);
+  border-radius: var(--border-radius);
+  padding: var(--padding-box);
 }
 
 /* PICTURES */
-.explore-info--wraper img{
-margin-top: var(--margin-top);
-height: 400px;
+.explore-info--wraper img {
+  margin-top: var(--margin-top);
+  height: 400px;
 }
-.multiple-images{
-    display: flex;
+.multiple-images {
+  display: flex;
 }
-.explore--button{
-    display: flex;
-    justify-content: center;
+.explore--button {
+  display: flex;
+  justify-content: center;
 }
-.teacher--info{
-    color: var(--pink);
-    text-decoration: underline;
+.teacher--info {
+  color: var(--pink);
+  text-decoration: underline;
 }
-.image--1, .image--2, .image--3{
-    flex: 1;
+.image--1,
+.image--2,
+.image--3 {
+  flex: 1;
 }
 .image--1 {
-    margin-right: 30px;
+  margin-right: 30px;
 }
-.image--2{
-    margin-right: 20px;
-    margin-left: 20px;
+.image--2 {
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.image--3{
-    margin-left: 30px;
+.image--3 {
+  margin-left: 30px;
 }
-.image--4{
-    margin-right: 25px;
+.image--4 {
+  margin-right: 25px;
 }
-.image--5{
-    margin-left: 25px;
+.image--5 {
+  margin-left: 25px;
+}
+
+/* TABLET SCREEN */
+@media screen and (max-width: 1060px) {
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  /* IMAGE TABLET */
+  .explore-info--wraper img {
+    height: 300px;
+  }
+  .explore-info--wraper .image {
+    height: 355px;
+  }
+  .image--1 img,
+  .image--2 img,
+  .image--3 img {
+    height: 280px;
+  }
+}
+
+/* PHONE SCREEN */
+@media screen and (max-width: 450px) {
+  .explore-info--wraper,
+  .teachers--wraper,
+  .researchers--wraper {
+    padding: 25px 25px;
+    margin-top: var(--margin-top-mobile);
+  }
+  h1 {
+    font-size: 27px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 21px;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 10px;
+    text-align: left;
+    text-justify: auto;
+  }
+
+  /* IMAGE PHONE */
+  .multiple-images {
+    flex-direction: column;
+  }
+  .image--1,
+  .image--2,
+  .image--3,
+  .image--4,
+  .image--5 {
+    margin: 0;
+  }
+  .explore-info--wraper img,
+  .teachers--wraper img,
+  .researchers--wraper img {
+    height: 240px;
+    margin-top: var(--margin-top-mobile);
+  }
+  .explore-info--wraper .image {
+    height: 270px;
+  }
 }

@@ -21,6 +21,5 @@
 @media screen and (max-width: 1060px) {
   .info-box--wraper {
     padding: var(--padding-box-tablet);
-    margin-top: ;
   }
 }

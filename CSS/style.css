@@ -14,6 +14,7 @@
   --border-radius: 45px;
   --padding-box: 45px 100px;
   --padding-box-tablet: 40px 60px;
+  --padding-box-mobile: 30px 26px;
   --margin-top: 55px;
   --margin-top-mobile: 30px;
   --padding-top-inside: 30px;
@@ -269,7 +270,10 @@ footer {
   padding-bottom: 20px;
 }
 footer p {
-  font-size: 10px;
+  font-size: 15px;
+  line-height: 2;
+  text-align: left;
+  text-justify:auto
 }
 .footer--wraper {
   max-width: 1440px;
@@ -279,12 +283,7 @@ footer p {
   padding: 0 60px;
   margin-top: 25px;
 }
-.footer--container p {
-  line-height: 2;
-  text-align: left;
-  text-justify: auto;
-}
-.footer--container {
+.footer--container-1, .footer--container-2 {
   margin-right: 45px;
 }
 
@@ -294,16 +293,16 @@ footer p {
     font-size: 60px;
   }
   h1 {
-    font-size: 27px;
+    font-size: 35px;
   }
   h2 {
-    font-size: 22px;
+    font-size: 28px;
   }
   h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
   p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .info-home--container {
@@ -367,9 +366,7 @@ footer p {
   .header--navigation label {
     display: initial;
   }
-  .fa-bars:before {
-    display: flex;
-  }
+
   .header--navigation input:checked ~ .header--navigation-items {
     display: block;
   }
@@ -394,7 +391,14 @@ footer p {
 @media screen and (max-width: 450px) {
   .header--container,
   .home--body {
-    padding: 0 35px;
+    padding: 0 25px;
+  }
+  .breadcrumbs{
+    padding: 0 25px;
+    margin-top: 15px;
+  }
+  .breadcrumbs a {
+    font-size: 10px;
   }
   .main-home--container h1 {
     font-size: 38px;
@@ -416,7 +420,7 @@ footer p {
   }
   .main-home--container,
   .info-home--container {
-    padding: 35px 35px;
+    padding: var(--padding-box-mobile);
     margin-top: var(--margin-top-mobile);
   }
   /* BUTTONS PHONE */
@@ -435,7 +439,7 @@ footer p {
 
   /* NAVIGATION PHONE */
   .header--navigation {
-    padding: 8px 35px;
+    padding: 8px 25px;
   }
   .header--navigation-items a {
     font-size: 15px;
@@ -473,13 +477,13 @@ footer p {
   /* FOOTER PHONE */
   footer {
     margin-top: var(--margin-top-mobile);
-    height: 710px;
+    height: 600px;
   }
   .footer--wraper {
     flex-direction: column;
     padding: 0 35px;
   }
-  .footer--container {
+ .footer--container-1, .footer--container-2 {
     margin-bottom: 30px;
     margin-right: 0;
   }

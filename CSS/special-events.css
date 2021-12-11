@@ -4,29 +4,67 @@
   padding: var(--padding-box);
   margin-top: var(--margin-top);
 }
-.special-info--body {
+.special-info--body,
+.special-info--body-1 {
   display: flex;
   margin-top: 40px;
 }
-.special-info--body p {
+.special-info--wraper p {
   background-color: var(--white);
   border-radius: var(--border-radius);
   padding: 30px;
   font-size: 22px;
 }
-.special-info--body .right,
-.special-info--body .left {
-  width: 100%;
+.right,
+.left,
+.right--professor {
+  height: 450px;
 }
 .right img,
-.left img {
+.left img,
+.right--professor img {
   margin-top: 0;
-  height: 450px;
   width: 400px;
+  height: 100%;
 }
-.right {
+.right,
+.right--professor {
   padding-left: 50px;
 }
 .left {
   padding-right: 50px;
+}
+
+/* TABLET SCREEN */
+@media screen and (max-width: 1060px) {
+  h1 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .special-info--body {
+    flex-direction: column-reverse;
+  }
+  .special-info--body-1 {
+    flex-direction: column;
+  }
+  .right,
+  .left,
+  .right--professor {
+    padding: 0;
+    height: 800px;
+  }
+  .special-info--wraper p {
+    margin-top: var(--margin-top-mobile);
+  }
+  /* IMAGE TABLET */
+  .right img,
+  .left img,
+  .right--professor img {
+    width: 100%;
+    height: 100%;
+  }
+  .right--professor img {
+  }
 }

@@ -1,18 +1,3 @@
-:root {
-  --pink: #c34881;
-  --orange: #be5800;
-  --purple: #4962f2;
-  --light-blue: #3a79a8;
-  --dark-blue: #1b3059;
-  --green: #386e01;
-  --white: #fff;
-  --light-black: #0f0d0d;
-  --border-radius: 45px;
-  --padding-box: 45px 100px;
-  --padding-box-mobile: 40px 60px;
-  --margin-top: 55px;
-  --padding-top-inside: 30px;
-}
 .visit--wraper h2 {
   margin: 0;
   color: var(--white);
@@ -20,6 +5,8 @@
 }
 .visit--wraper p {
   color: var(--white);
+  text-align: left;
+  text-justify: auto;
 }
 .main-visit--container,
 .admission--wraper,
@@ -54,6 +41,9 @@
   background-color: var(--orange);
   flex: 1;
   margin-right: 25px;
+}
+.hours--body p{
+  line-height: 70px;
 }
 .location--body {
   background-color: var(--pink);
@@ -91,4 +81,20 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+/* TABLET SCREEN */
+@media screen and (max-width: 1060px) {
+  .admission--wraper,
+  .hours--body,
+  .location--body,
+  .food--body,
+  .shop--body {
+    padding: var(--padding-box-tablet);
+  }
+
+  /* TEXT TABLET */
+  .hours--body p{
+    line-height: 50px;
+  }
 }

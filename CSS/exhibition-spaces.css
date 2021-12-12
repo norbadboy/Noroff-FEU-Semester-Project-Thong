@@ -23,3 +23,27 @@
     padding: var(--padding-box-tablet);
   }
 }
+
+/* PHONE SCREEN */
+@media screen and (max-width: 450px){
+  .info-box--wraper{
+    padding: 15px 15px;
+    margin-top: var(--margin-top-mobile);
+  }
+  .info-box--body{
+    padding: var(--padding-box-mobile);
+    margin-top: var(--margin-top-mobile);
+  }
+
+  /* TEXT PHONE*/
+.info-box--wraper h1{
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+  /* IMAGE PHONE */
+  .info-box--body img {
+    height: 250px;
+    margin: 0;
+  }
+}

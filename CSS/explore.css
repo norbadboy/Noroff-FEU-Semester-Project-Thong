@@ -53,6 +53,11 @@
   p {
     font-size: 20px;
   }
+  .explore-info--wraper,
+  .teachers--wraper,
+  .researchers--wraper {
+    padding: var(--padding-box-tablet);
+  }
 
   /* IMAGE TABLET */
   .explore-info--wraper img {
@@ -73,11 +78,14 @@
   .explore-info--wraper,
   .teachers--wraper,
   .researchers--wraper {
-    padding: 25px 25px;
+    padding: 15px 15px;
     margin-top: var(--margin-top-mobile);
   }
-  h1 {
+  .explore-info--wraper h1,
+  .teachers--wraper h1,
+  .researchers--wraper h1 {
     font-size: 27px;
+    margin-top: 15px;
   }
   h2 {
     font-size: 24px;
@@ -86,7 +94,9 @@
     font-size: 21px;
     margin-bottom: 8px;
   }
-  p {
+  .explore-info--wraper p,
+  .teachers--wraper p,
+  .researchers--wraper p {
     font-size: 10px;
     text-align: left;
     text-justify: auto;

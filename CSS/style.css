@@ -14,7 +14,7 @@
   --border-radius: 45px;
   --padding-box: 45px 100px;
   --padding-box-tablet: 40px 60px;
-  --padding-box-mobile: 30px 26px;
+  --padding-box-mobile: 30px 22px;
   --margin-top: 55px;
   --margin-top-mobile: 30px;
   --padding-top-inside: 30px;
@@ -417,6 +417,7 @@ footer p {
     font-size: 10px;
     text-align: left;
     text-justify: auto;
+    line-height: 1.8;
   }
   .main-home--container,
   .info-home--container {

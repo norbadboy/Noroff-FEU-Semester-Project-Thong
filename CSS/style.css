@@ -273,7 +273,7 @@ footer p {
   font-size: 15px;
   line-height: 2;
   text-align: left;
-  text-justify:auto
+  text-justify: auto;
 }
 .footer--wraper {
   max-width: 1440px;
@@ -283,12 +283,13 @@ footer p {
   padding: 0 60px;
   margin-top: 25px;
 }
-.footer--container-1, .footer--container-2 {
+.footer--container-1,
+.footer--container-2 {
   margin-right: 45px;
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1150px) {
   .main-home--container h1 {
     font-size: 60px;
   }
@@ -393,7 +394,7 @@ footer p {
   .home--body {
     padding: 0 25px;
   }
-  .breadcrumbs{
+  .breadcrumbs {
     padding: 0 25px;
     margin-top: 15px;
   }
@@ -484,7 +485,8 @@ footer p {
     flex-direction: column;
     padding: 0 35px;
   }
- .footer--container-1, .footer--container-2 {
+  .footer--container-1,
+  .footer--container-2 {
     margin-bottom: 30px;
     margin-right: 0;
   }

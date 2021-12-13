@@ -42,7 +42,7 @@
   flex: 1;
   margin-right: 25px;
 }
-.hours--body p{
+.hours--body p {
   line-height: 70px;
 }
 .location--body {
@@ -84,7 +84,7 @@
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1150px) {
   .admission--wraper,
   .hours--body,
   .location--body,
@@ -94,7 +94,7 @@
   }
 
   /* TEXT TABLET */
-  .hours--body p{
+  .hours--body p {
     line-height: 50px;
   }
 }

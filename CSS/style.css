@@ -289,7 +289,7 @@ footer p {
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1080px) {
   .main-home--container h1 {
     font-size: 60px;
   }
@@ -389,7 +389,7 @@ footer p {
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .header--container,
   .home--body {
     padding: 0 25px;
@@ -399,7 +399,7 @@ footer p {
     margin-top: 15px;
   }
   .breadcrumbs a {
-    font-size: 10px;
+    font-size: 14px;
   }
   .main-home--container h1 {
     font-size: 38px;
@@ -415,7 +415,7 @@ footer p {
     margin-bottom: 8px;
   }
   p {
-    font-size: 10px;
+    font-size: 16px;
     text-align: left;
     text-justify: auto;
     line-height: 1.8;
@@ -479,7 +479,7 @@ footer p {
   /* FOOTER PHONE */
   footer {
     margin-top: var(--margin-top-mobile);
-    height: 600px;
+    height: 650px;
   }
   .footer--wraper {
     flex-direction: column;
@@ -490,7 +490,9 @@ footer p {
     margin-bottom: 30px;
     margin-right: 0;
   }
-  .footer--container p {
-    font-size: 10px;
+  .footer--container p,
+  .footer--container-2 p,
+  .footer--container-1 p {
+    font-size: 15px;
   }
 }

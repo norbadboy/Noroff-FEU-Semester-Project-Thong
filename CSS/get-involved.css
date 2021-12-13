@@ -44,7 +44,7 @@
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1080px) {
   .get-involved--wraper {
     padding: var(--padding-box-tablet);
   }
@@ -77,7 +77,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .get-involved--wraper {
     padding: 15px 15px;
     margin-top: var(--margin-top-mobile);
@@ -95,9 +95,9 @@
     font-size: 24px;
   }
   .get-involved--text p {
-    font-size: 10px;
+    font-size: 16px;
   }
-  .h2--internships{
+  .h2--internships {
     left: 0;
   }
   /* IMAGE PHONE */

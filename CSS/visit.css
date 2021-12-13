@@ -84,7 +84,7 @@
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1080px) {
   .admission--wraper,
   .hours--body,
   .location--body,

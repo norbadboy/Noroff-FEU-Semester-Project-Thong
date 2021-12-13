@@ -36,7 +36,7 @@
 }
 
 /* TABLET SCREEN */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1080px) {
   h1 {
     font-size: 45px;
   }
@@ -71,7 +71,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .special-info--wraper {
     padding: 15px 15px;
     margin-top: var(--margin-top-mobile);
@@ -90,7 +90,7 @@
     margin-bottom: 8px;
   }
   .special-info--wraper p {
-    font-size: 10px;
+    font-size: 16px;
     padding: 25px;
     margin-top: 20px;
   }

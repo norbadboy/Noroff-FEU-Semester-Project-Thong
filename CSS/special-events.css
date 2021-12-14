@@ -71,19 +71,19 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .special-info--wraper {
     padding: 15px 15px;
     margin-top: var(--margin-top-mobile);
   }
   .special-info--wraper h1 {
-    font-size: 27px;
+    font-size: 29px;
     margin-top: 15px;
     margin-left: 5px;
     letter-spacing: 1px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 25px;
   }
   h3 {
     font-size: 21px;

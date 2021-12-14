@@ -74,7 +74,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .explore-info--wraper,
   .teachers--wraper,
   .researchers--wraper {
@@ -84,11 +84,11 @@
   .explore-info--wraper h1,
   .teachers--wraper h1,
   .researchers--wraper h1 {
-    font-size: 27px;
+    font-size: 29px;
     margin-top: 15px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 25px;
   }
   h3 {
     font-size: 21px;

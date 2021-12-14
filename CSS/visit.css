@@ -7,6 +7,7 @@
   color: var(--white);
   text-align: left;
   text-justify: auto;
+  margin-bottom: 5px;
 }
 .main-visit--container,
 .admission--wraper,
@@ -17,6 +18,7 @@
   border-radius: var(--border-radius);
   padding: var(--padding-box);
 }
+
 .main-visit--container {
   margin-top: var(--margin-top);
   background-image: url("../Images/scott-webb-2.jpg");
@@ -54,6 +56,9 @@
   background-color: var(--dark-blue);
   margin-top: var(--margin-top);
 }
+.admission--wraper p{
+  margin-bottom: 15px;
+}
 .food--body {
   background-color: var(--green);
   flex: 1;
@@ -73,6 +78,7 @@
   padding-bottom: 80%;
   position: relative;
   height: 0;
+  border-radius: 6px;
 }
 
 .map-responsive iframe {
@@ -94,7 +100,61 @@
   }
 
   /* TEXT TABLET */
+  .admission--wraper h2,
+  .museum-info--wraper h2{
+    font-size: 32px;
+  }
   .hours--body p {
     line-height: 50px;
+  }
+}
+
+/* PHONE SCREEN */
+@media screen and (max-width: 480px) {
+  .admission--wraper,
+  .museum-info--wraper,
+  .main-visit--container {
+    margin-top: var(--margin-top-mobile);
+  }
+  .hours--body,
+  .location--body,
+  .food--body,
+  .shop--body,
+  .admission--wraper,
+  .access--wraper {
+    padding: 15px 15px;
+  }
+  .hours--body, .food--body {
+    margin-right: 0px;
+  }
+  .main-visit--container {
+    height: 150px;
+  }
+  /* TEXT PHONE */
+  .main-visit--container h1 {
+    font-size: 55px;
+  }
+  .main-visit--container h2 {
+    font-size: 27px;
+    width: 230px;
+  }
+  .admission--wraper h2,
+  .museum-info--wraper h2 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .admission--wraper p,
+  .museum-info--wraper p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .hours--body p {
+    line-height: 28px;
+  }
+
+  /* MAPS PHONE */
+  .map-responsive{
+    padding-bottom: 100%;
   }
 }

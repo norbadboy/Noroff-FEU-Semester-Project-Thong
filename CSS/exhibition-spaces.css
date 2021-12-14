@@ -22,10 +22,13 @@
   .info-box--wraper {
     padding: var(--padding-box-tablet);
   }
+  .info-box--body{
+    padding: 40px 50px;
+  }
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .info-box--wraper {
     padding: 15px 15px;
     margin-top: var(--margin-top-mobile);

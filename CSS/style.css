@@ -13,7 +13,7 @@
   --light-black: #0f0d0d;
   --border-radius: 45px;
   --padding-box: 45px 100px;
-  --padding-box-tablet: 40px 60px;
+  --padding-box-tablet: 40px 45px;
   --padding-box-mobile: 30px 22px;
   --margin-top: 55px;
   --margin-top-mobile: 30px;
@@ -389,7 +389,7 @@ footer p {
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .header--container,
   .home--body {
     padding: 0 25px;
@@ -399,16 +399,17 @@ footer p {
     margin-top: 15px;
   }
   .breadcrumbs a {
-    font-size: 14px;
+    font-size: 18px;
   }
   .main-home--container h1 {
     font-size: 38px;
+    padding: 0 50px 0 53px;
   }
   h1 {
-    font-size: 27px;
+    font-size: 29px;
   }
   h2 {
-    font-size: 24px;
+    font-size: 25px;
   }
   h3 {
     font-size: 21px;
@@ -426,17 +427,13 @@ footer p {
     margin-top: var(--margin-top-mobile);
   }
   /* BUTTONS PHONE */
-  .main-home--buttons {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
   .main-home--buttons a {
     font-size: 15px;
     padding: 10px 15px;
   }
   .main-home--buttons .button-1 {
-    width: 195px;
     margin: 0;
+    width: auto;
   }
 
   /* NAVIGATION PHONE */
@@ -478,7 +475,7 @@ footer p {
   }
   /* FOOTER PHONE */
   footer {
-    margin-top: var(--margin-top-mobile);
+    margin-top: 50px;
     height: 650px;
   }
   .footer--wraper {
@@ -493,6 +490,6 @@ footer p {
   .footer--container p,
   .footer--container-2 p,
   .footer--container-1 p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }

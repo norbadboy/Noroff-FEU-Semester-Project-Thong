@@ -77,7 +77,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 480px) {
   .get-involved--wraper {
     padding: 15px 15px;
     margin-top: var(--margin-top-mobile);
@@ -92,7 +92,7 @@
     font-size: 29px;
   }
   .get-involved--container h2 {
-    font-size: 24px;
+    font-size: 25px;
   }
   .get-involved--text p {
     font-size: 16px;

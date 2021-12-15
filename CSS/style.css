@@ -432,6 +432,7 @@ footer p {
   }
   /* BUTTONS PHONE */
   .main-home--buttons {
+    align-items: stretch;
     padding: 0 45px 0 45px;
   }
   .main-home--buttons .button-1 a,

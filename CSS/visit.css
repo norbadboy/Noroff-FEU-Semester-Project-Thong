@@ -116,13 +116,16 @@
   .main-visit--container {
     margin-top: var(--margin-top-mobile);
   }
+  .museum-info--wraper{
+    flex-direction: column;
+  }
   .hours--body,
   .location--body,
   .food--body,
   .shop--body,
   .admission--wraper,
   .access--wraper {
-    padding: 15px 15px;
+    padding: 15px 30px;
   }
   .hours--body, .food--body {
     margin-right: 0px;
@@ -130,19 +133,24 @@
   .main-visit--container {
     height: 150px;
   }
+  .shop--body, .location--body{
+    margin-left: 0;
+    margin-top: var(--margin-top-mobile);
+  }
   /* TEXT PHONE */
   .main-visit--container h1 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .main-visit--container h2 {
     font-size: 27px;
-    width: 230px;
   }
   .admission--wraper h2,
   .museum-info--wraper h2 {
     font-size: 25px;
     margin-top: 15px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
   }
   .admission--wraper p,
   .museum-info--wraper p {
@@ -150,11 +158,11 @@
     line-height: 1.7;
   }
   .hours--body p {
-    line-height: 28px;
+    line-height: 35px;
   }
 
   /* MAPS PHONE */
   .map-responsive{
-    padding-bottom: 100%;
+    margin-bottom: 15px;
   }
 }

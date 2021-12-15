@@ -14,10 +14,11 @@
   --border-radius: 45px;
   --padding-box: 45px 100px;
   --padding-box-tablet: 40px 45px;
-  --padding-box-mobile: 30px 22px;
+  --padding-box-mobile: 30px 15px 30px 25px;
   --margin-top: 55px;
   --margin-top-mobile: 30px;
   --padding-top-inside: 30px;
+  --margin-top-mobile-inside: 20px;
 }
 h1,
 button,

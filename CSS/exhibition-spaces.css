@@ -30,11 +30,11 @@
 /* PHONE SCREEN */
 @media screen and (max-width: 480px) {
   .info-box--wraper {
-    padding: 15px 15px;
+    padding: 15px 20px;
     margin-top: var(--margin-top-mobile);
   }
   .info-box--body {
-    padding: var(--padding-box-mobile);
+    padding: 30px 20px;
     margin-top: var(--margin-top-mobile);
   }
 

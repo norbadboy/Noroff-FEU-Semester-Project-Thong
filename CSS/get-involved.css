@@ -58,9 +58,7 @@
   .get-involved--container h2 {
     font-size: 35px;
   }
-  .h2--support {
-    position: relative;
-  }
+
   .h2--internships {
     position: relative;
   }
@@ -79,12 +77,12 @@
 /* PHONE SCREEN */
 @media screen and (max-width: 480px) {
   .get-involved--wraper {
-    padding: 15px 15px;
+    padding: 15px 20px;
     margin-top: var(--margin-top-mobile);
   }
   .get-involved--container {
-    padding: var(--padding-box-mobile);
     margin-top: var(--margin-top-mobile);
+    padding: 30px 26px;
   }
 
   /* TEXT PHONE */
@@ -94,11 +92,15 @@
   .get-involved--container h2 {
     font-size: 25px;
   }
+  .h2--support {
+    position: relative;
+    left: 1px;
+  }
   .get-involved--text p {
     font-size: 16px;
   }
   .h2--internships {
-    left: 0;
+    left: 0px;
   }
   /* IMAGE PHONE */
   .get-involved--image img {

@@ -78,8 +78,11 @@
   .explore-info--wraper,
   .teachers--wraper,
   .researchers--wraper {
-    padding: 15px 15px;
+    padding: 15px 20px;
     margin-top: var(--margin-top-mobile);
+  }
+  .info-home--container {
+    margin-top: var(--margin-top-mobile-inside);
   }
   .explore-info--wraper h1,
   .teachers--wraper h1,
@@ -117,9 +120,9 @@
   .teachers--wraper img,
   .researchers--wraper img {
     height: 240px;
-    margin-top: var(--margin-top-mobile);
+    margin-top: var(--margin-top-mobile-inside);
   }
   .explore-info--wraper .image {
-    height: 270px;
+    height: 260px;
   }
 }

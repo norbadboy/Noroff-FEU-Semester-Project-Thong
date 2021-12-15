@@ -73,7 +73,7 @@
 /* PHONE SCREEN */
 @media screen and (max-width: 480px) {
   .special-info--wraper {
-    padding: 15px 15px;
+    padding: 15px 20px;
     margin-top: var(--margin-top-mobile);
   }
   .special-info--wraper h1 {
@@ -102,6 +102,6 @@
   .right,
   .left,
   .right--professor {
-    height: 350px;
+    height: 320px;
   }
 }

@@ -429,8 +429,8 @@ footer p {
     font-size: 14px;
   }
   .main-home--container h1 {
-    font-size: 38px;
-    padding: 0 30px 0 35px;
+    font-size: 41px;
+    padding: 0 25px 0 38px;
   }
   h1 {
     font-size: 29px;
@@ -459,7 +459,7 @@ footer p {
   /* BUTTONS PHONE */
   .main-home--buttons {
     align-items: stretch;
-    padding: 0 48px 0 37px;
+    padding: 0 43px 0 42px;
   }
   .main-home--buttons .button-1 a,
   .main-home--buttons .button-2 a {

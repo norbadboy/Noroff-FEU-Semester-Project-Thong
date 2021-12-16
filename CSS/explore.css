@@ -104,7 +104,6 @@
     text-align: left;
     text-justify: auto;
   }
-
   /* IMAGE PHONE */
   .multiple-images {
     flex-direction: column;
@@ -124,5 +123,13 @@
   }
   .explore-info--wraper .image {
     height: 260px;
+  }
+  /* BUTTON */
+  .explore--button .main-home--buttons{
+    padding: 0;
+  }
+  .explore--button .button-2{
+    font-size: 14px;
+    padding: 12px 10px;
   }
 }

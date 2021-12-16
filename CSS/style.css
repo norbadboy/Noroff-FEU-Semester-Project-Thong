@@ -459,12 +459,12 @@ footer p {
   /* BUTTONS PHONE */
   .main-home--buttons {
     align-items: stretch;
-    padding: 0 45px 0 40px;
+    padding: 0 48px 0 37px;
   }
   .main-home--buttons .button-1 a,
   .main-home--buttons .button-2 a {
-    font-size: 14px;
-    padding: 12px 10px;
+    font-size: 16px;
+    padding: 10px 9px;
   }
   .main-home--buttons .button-1 {
     width: auto;

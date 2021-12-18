@@ -28,7 +28,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 590px) {
   .info-box--wraper {
     padding: 15px 20px;
     margin-top: var(--margin-top-mobile);

@@ -99,33 +99,46 @@ label:hover {
 /* LOGO DESKTOP*/
 .header--container {
   background-color: var(--light-black);
-  padding: 0 60px;
+  padding: 0 30px 0 60px;
 }
 .logo--container {
   max-width: 1440px;
   margin: auto;
   padding: 12px 0;
   display: flex;
-  align-items: center;
+}
+.logo{
+  flex: 1;
 }
 .logo a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: fit-content;
 }
 .logo h1 {
   font-size: 25px;
   font-family: "Ruddy", sans-serif;
-  letter-spacing: 3.5px;
+  letter-spacing: 2.5px;
+}
+.logo-image--wraper{
+  display: flex;
+}
+.logo-image--wraper div{
+  margin-right: 10px;
+}
+.logo-image--wraper img{
+width: 40px;
+height: 40px;
+margin-top: 15px;
 }
 .header--image-wraper {
   height: 100px;
   margin-right: 20px;
+  flex: 2;
 }
 .header--image {
   height: 100%;
-  width: auto;
+  width: 100%;
   border: 0;
 }
 /* NAVIGATION BAR DESKTOP*/
@@ -196,7 +209,6 @@ label:hover {
   color: var(--light-blue);
   margin-left: 12px;
 }
-
 /* BODY DESKTOP*/
 body {
   background: #3a7aa8;
@@ -211,7 +223,6 @@ body {
   max-width: 1440px;
   padding: 0 60px;
 }
-
 /* HOMEPAGE CONTENTS */
 .home--body h1 {
   letter-spacing: 3px;
@@ -238,7 +249,6 @@ main,
   font-size: 80px;
   font-weight: 900;
 }
-
 .info-home--container {
   box-sizing: border-box;
   padding: var(--padding-box);
@@ -287,7 +297,6 @@ main,
 .special--body .right--container img {
   margin-top: 99px;
 }
-
 /* FOOTER DESKTOP*/
 footer {
   background-color: var(--white);
@@ -313,6 +322,7 @@ footer p {
   margin-right: 45px;
 }
 
+
 /* TABLET SCREEN */
 @media screen and (max-width: 1080px) {
   .main-home--container h1 {
@@ -320,6 +330,9 @@ footer p {
   }
   h1 {
     font-size: 35px;
+  }
+  .logo h1 {
+    font-size: 20px;
   }
   h2 {
     font-size: 28px;
@@ -340,6 +353,15 @@ footer p {
   .main-home--buttons .button-1 {
     margin: 0;
   }
+  /* LOGO TABLET */
+  .header--image-wraper {
+    height: 90px;
+  }
+  .logo-image--wraper img{
+    width: 32px;
+    height: 32px;
+    margin-top: 12px;
+    }
   /* NAVIGATION BAR TABLET*/
   .header--navigation {
     padding: 12px 60px;
@@ -395,7 +417,6 @@ footer p {
   .header--navigation input:checked ~ .header--navigation-items {
     display: block;
   }
-
   /* IMAGE TABLET*/
   .home--body img {
     height: 300px;
@@ -426,10 +447,12 @@ footer p {
     font-size: 18px;
   }
   .logo h1 {
-    font-size: 14px;
+    font-size: 17.5px;
+    margin-right: 7px;
+    margin-bottom: 10px;
   }
   .main-home--container h1 {
-    font-size: 41px;
+    font-size: 39px;
     padding: 0 27px 0 33px;
   }
   h1 {
@@ -456,6 +479,23 @@ footer p {
     padding: 30px 20px;
     margin-top: var(--margin-top-mobile);
   }
+  /* LOGO PHONE */
+  .logo--container{
+    flex-direction: column;
+  }
+  .logo a {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .logo-image--wraper div{
+    display: flex;
+    margin: 0;
+  }
+  .logo-image--wraper img{
+    width: 17px;
+    height: 17px;
+    margin-top: 5px;
+    }
   /* BUTTONS PHONE */
   .main-home--buttons {
     align-items: stretch;

@@ -98,6 +98,9 @@
   .shop--body {
     padding: var(--padding-box-tablet);
   }
+  .main-visit--container{
+    padding: 50px 25px 20px 25px;
+  }
 
   /* TEXT TABLET */
   .admission--wraper h2,
@@ -137,12 +140,16 @@
     margin-left: 0;
     margin-top: var(--margin-top-mobile);
   }
+  .main-visit--container{
+    border-radius: var(--border-radius);
+    padding: 40px 20px 10px 20px;
+  }
   /* TEXT PHONE */
   .main-visit--container h1 {
-    font-size: 50px;
+    font-size: 52px;
   }
   .main-visit--container h2 {
-    font-size: 27px;
+    font-size: 28px;
   }
   .admission--wraper h2,
   .museum-info--wraper h2 {

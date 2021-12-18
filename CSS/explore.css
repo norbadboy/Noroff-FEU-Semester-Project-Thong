@@ -74,7 +74,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 510px) {
   .explore-info--wraper,
   .teachers--wraper,
   .researchers--wraper {
@@ -125,10 +125,10 @@
     height: 260px;
   }
   /* BUTTON */
-  .explore--button .main-home--buttons{
+  .explore--button .main-home--buttons {
     padding: 0;
   }
-  .explore--button .button-2{
+  .explore--button .button-2 {
     font-size: 14px;
     padding: 12px 10px;
   }

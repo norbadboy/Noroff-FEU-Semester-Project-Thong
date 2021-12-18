@@ -56,7 +56,7 @@
   background-color: var(--dark-blue);
   margin-top: var(--margin-top);
 }
-.admission--wraper p{
+.admission--wraper p {
   margin-bottom: 15px;
 }
 .food--body {
@@ -98,13 +98,13 @@
   .shop--body {
     padding: var(--padding-box-tablet);
   }
-  .main-visit--container{
+  .main-visit--container {
     padding: 50px 25px 20px 25px;
   }
 
   /* TEXT TABLET */
   .admission--wraper h2,
-  .museum-info--wraper h2{
+  .museum-info--wraper h2 {
     font-size: 32px;
   }
   .hours--body p {
@@ -113,13 +113,13 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 510px) {
   .admission--wraper,
   .museum-info--wraper,
   .main-visit--container {
     margin-top: var(--margin-top-mobile);
   }
-  .museum-info--wraper{
+  .museum-info--wraper {
     flex-direction: column;
   }
   .hours--body,
@@ -130,17 +130,19 @@
   .access--wraper {
     padding: 15px 30px;
   }
-  .hours--body, .food--body {
+  .hours--body,
+  .food--body {
     margin-right: 0px;
   }
   .main-visit--container {
     height: 150px;
   }
-  .shop--body, .location--body{
+  .shop--body,
+  .location--body {
     margin-left: 0;
     margin-top: var(--margin-top-mobile);
   }
-  .main-visit--container{
+  .main-visit--container {
     border-radius: var(--border-radius);
     padding: 40px 20px 10px 20px;
   }
@@ -169,7 +171,7 @@
   }
 
   /* MAPS PHONE */
-  .map-responsive{
+  .map-responsive {
     margin-bottom: 15px;
   }
 }

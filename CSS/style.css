@@ -444,9 +444,9 @@ footer p {
     font-size: 18px;
   }
   .logo h1 {
-    font-size: 19.5px;
+    font-size: 18px;
     margin-right: 7px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1px;
   }
   .main-home--container h1 {
     font-size: 39px;
@@ -571,13 +571,12 @@ footer p {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 375px){
-  .logo h1{
+@media screen and (max-width: 375px) {
+  .logo h1 {
     font-size: 16px;
   }
-  .logo-image--wraper img{
+  .logo-image--wraper img {
     width: 17px;
     height: 17px;
   }
 }
-

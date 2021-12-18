@@ -71,7 +71,7 @@
 }
 
 /* PHONE SCREEN */
-@media screen and (max-width: 590px){
+@media screen and (max-width: 510px) {
   .special-info--wraper {
     padding: 15px 20px;
     margin-top: var(--margin-top-mobile);

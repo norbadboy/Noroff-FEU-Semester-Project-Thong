@@ -88,10 +88,18 @@ a {
   font-size: 21px;
   letter-spacing: 1px;
   padding: 0px 60px;
+  width: 100px;
+}
+.breadcrumbs--container{
+  display: flex;
 }
 .breadcrumbs a {
   margin: auto;
   max-width: 1440px;
+}
+.breadcrumbs p {
+  color: var(--white);
+  padding: 0 5px;
 }
 label:hover {
   cursor: pointer;
@@ -486,7 +494,7 @@ footer p {
     margin-top: 15px;
   }
   .breadcrumbs a {
-    font-size: 18px;
+    font-size: 16px;
   }
   .logo h1 {
     font-size: 18px;

@@ -1,3 +1,6 @@
+.breadcrumbs {
+  width: 400px;
+}
 .special-info--wraper {
   background-color: var(--purple);
   border-radius: var(--border-radius);
@@ -72,6 +75,9 @@
 
 /* PHONE SCREEN */
 @media screen and (max-width: 510px) {
+  .breadcrumbs {
+    width: 335px;
+  }
   .special-info--wraper {
     padding: 15px 20px;
     margin-top: var(--margin-top-mobile);

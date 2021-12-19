@@ -1,3 +1,6 @@
+.breadcrumbs {
+  width: 275px;
+}
 .info-box--wraper {
   background-color: var(--orange);
   padding: 40px 100px;
@@ -32,6 +35,9 @@
 
 /* PHONE SCREEN */
 @media screen and (max-width: 510px) {
+  .breadcrumbs {
+    width: 225px;
+  }
   .info-box--wraper {
     padding: 15px 20px;
     margin-top: var(--margin-top-mobile);

@@ -1,3 +1,6 @@
+.breadcrumbs {
+  width: 210px;
+}
 .get-involved--wraper {
   background-color: var(--green);
   padding: var(--padding-box);
@@ -77,6 +80,9 @@
 
 /* PHONE SCREEN */
 @media screen and (max-width: 510px) {
+  .breadcrumbs {
+    width: 180px;
+  }
   .get-involved--wraper {
     padding: 15px 20px;
     margin-top: var(--margin-top-mobile);

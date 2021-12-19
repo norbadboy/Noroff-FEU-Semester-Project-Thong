@@ -25,6 +25,9 @@
   .info-box--body {
     padding: 40px 50px;
   }
+  .info-box--wraper h1 {
+    font-size: 35px;
+  }
 }
 
 /* PHONE SCREEN */

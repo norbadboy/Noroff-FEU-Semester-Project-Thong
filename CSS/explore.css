@@ -45,10 +45,10 @@
   margin-left: 25px;
 }
 
-/* TABLET SCREEN */
+/* TABLET SCREEN BIG */
 @media screen and (max-width: 1080px) {
   h1 {
-    font-size: 45px;
+    font-size: 35px;
   }
   p {
     font-size: 20px;
@@ -69,7 +69,23 @@
   .image--1 img,
   .image--2 img,
   .image--3 img {
-    height: 280px;
+    height: 260px;
+  }
+}
+
+/* TABLET SCREEN SMALL*/
+@media screen and (max-width: 790px) {
+  .image--1 img,
+  .image--2 img,
+  .image--3 img {
+    height: 200px;
+  }
+  .image--1,
+  .image--2 {
+    margin-right: 10px;
+  }
+  .image--3 {
+    margin-left: 20px;
   }
 }
 

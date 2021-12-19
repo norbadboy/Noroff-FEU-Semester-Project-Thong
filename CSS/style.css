@@ -321,19 +321,22 @@ footer p {
   margin-right: 45px;
 }
 
-/* TABLET SCREEN */
+/* TABLET SCREEN BIG*/
 @media screen and (max-width: 1080px) {
   .main-home--container h1 {
-    font-size: 60px;
-  }
-  h1 {
-    font-size: 35px;
+    font-size: 55px;
   }
   .logo h1 {
     font-size: 20px;
   }
+  h1 {
+    font-size: 30px;
+  }
+  .home--body h1 {
+    letter-spacing: 1.5px;
+  }
   h2 {
-    font-size: 28px;
+    font-size: 26px;
   }
   h3 {
     font-size: 22px;
@@ -341,7 +344,9 @@ footer p {
   p {
     font-size: 18px;
   }
-
+  .main-home--container {
+    padding: 40px 20px;
+  }
   .info-home--container {
     padding: var(--padding-box-tablet);
   }
@@ -351,6 +356,7 @@ footer p {
   .main-home--buttons .button-1 {
     margin: 0;
   }
+
   /* LOGO TABLET */
   .header--image {
     height: 90px;
@@ -430,7 +436,42 @@ footer p {
     margin-top: 65px;
   }
 }
-/* PHONE SCREEN */
+
+/* TABLET SCREEN SMALL*/
+@media screen and (max-width: 790px) {
+  .header--container,
+  .home--body {
+    padding: 0 35px;
+  }
+  .breadcrumbs {
+    padding: 0 35px;
+    margin-top: 20px;
+  }
+  .header--navigation {
+    padding: 8px 35px;
+  }
+  /* TEXT */
+  .main-home--container h1 {
+    font-size: 45px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  /* BUTTONS */
+  .main-home--buttons .button-1 a,
+  .main-home--buttons .button-2 a {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+  .main-home--buttons .button-1 {
+    width: 188px;
+  }
+}
+
+/* PHONE SCREEN BIG*/
 @media screen and (max-width: 510px) {
   .header--container,
   .home--body {
@@ -571,6 +612,8 @@ footer p {
     font-size: 14px;
   }
 }
+
+/* PHONE SCREEN SMALL */
 @media screen and (max-width: 375px) {
   .logo h1 {
     font-size: 16px;

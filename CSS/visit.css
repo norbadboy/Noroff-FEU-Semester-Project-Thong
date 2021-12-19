@@ -112,6 +112,22 @@
   }
 }
 
+
+/* TABLET SCREEN SMALL*/
+@media screen and (max-width: 790px){
+  .admission--wraper,
+  .hours--body,
+  .location--body,
+  .food--body,
+  .shop--body {
+    padding: 30px 35px;
+  }
+  .map-responsive {
+  padding-bottom: 90%;
+  }
+}
+
+
 /* PHONE SCREEN */
 @media screen and (max-width: 510px) {
   .admission--wraper,

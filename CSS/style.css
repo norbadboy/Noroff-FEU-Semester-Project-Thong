@@ -435,6 +435,10 @@ footer p {
   .special--body .right--container img {
     margin-top: 65px;
   }
+  /* FOOTER TABLET */
+  .footer--container p {
+    color: black;
+  }
 }
 
 /* TABLET SCREEN SMALL*/

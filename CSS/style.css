@@ -417,7 +417,7 @@ footer p {
     background-color: var(--light-blue);
     color: var(--white);
   }
-  /* HAMBURGER MENU TABLET*/
+  /* HAMBURGER MENU TABLET */
   .fas {
     /* overide default behavior of fontawsome item */
     display: block !important;
